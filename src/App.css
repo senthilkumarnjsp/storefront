@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.alert-header {
+  display: flex;
+  color: white;
+  background-color: black;
+}
+
+.currency {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  height: 15vh;
+  border: 2px solid saddlebrown;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+}
+
+.link {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  margin: auto 10px;
+  font-size: 15px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.desktop {
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .header {
+    height: 8vh;
+  }
+  .desktop {
+    display: none;
+  }
+}
