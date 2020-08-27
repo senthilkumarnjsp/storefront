@@ -7,7 +7,7 @@ export default () => {
   return (
     <div>
       <div className="slideshow-container">
-        <img src={img} alt="One" style={{ width: "100%", height: "350px" }} />
+        <img src={img} alt="One" />
       </div>
     </div>
   );

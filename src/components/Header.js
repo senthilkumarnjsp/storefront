@@ -7,7 +7,7 @@ import Cart from "./Cart";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header" id="header">
       {/* logo */}
       <Logo />
       {/* Links */}
