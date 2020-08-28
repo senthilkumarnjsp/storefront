@@ -6,8 +6,10 @@ export default () => {
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
       <div className="products">
-        <h3>In The Spotlight</h3>
+        <h3 style={{ margin: 25, textAlign: "left" }}>In The Spotlight</h3>
         <div className="product-list">
+          <Product />
+          <Product />
           <Product />
           <Product />
           <Product />
@@ -27,7 +29,7 @@ export default () => {
           style={{
             bottom: 100,
           }}
-          href="#header"
+          href="#alertHeader"
         >
           <i className="medium material-icons">arrow_upward</i>
         </a>

@@ -1,5 +1,7 @@
 # storefront
 
+A plain ReactJS e-commerce template without any excess dependencies.
+
 ## Store front e-commerce template
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
